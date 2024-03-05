@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="barLineHeight">2dp</dimen>
+    <dimen name="dialogLineHeight">1dp</dimen>
+    <dimen name="barMenuItemPadding">16dp</dimen>
+    <dimen name="inputPadding">8dp</dimen>
+    <dimen name="reportPadding">8dp</dimen>
+
+
+    <dimen name="outer_width_2">170dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="outer_width_1">120dp</dimen>
+    <dimen name="outer_width">60dp</dimen>
+    <dimen name="margin_imageview">2dp</dimen>
+    <dimen name="margin_imageview_min">1dp</dimen>
+    <dimen name="suq_width">45dp</dimen>
+    <dimen name="suq_widthdp">55dp</dimen>
+
+</resources>

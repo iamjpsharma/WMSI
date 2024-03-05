@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.pdfview.pdf,com.gkemon.XMLtoPDF" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.cardiologosguadalajara.wmsi.App"
+        android:allowBackup="false"
+        android:icon="@drawable/logo_cardiologos"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo_cardiologos"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpinApp">
+
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.FirstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.ReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar" />
+        <activity
+
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.InfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar" />
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.MainActivity"
+            android:label="@string/menu_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.SubscriptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.TermsAndPolicyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar" />
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.FinalReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar" />
+        <activity android:name="com.cardiologosguadalajara.wmsi.ui.activity.ReportActivityCopy" />
+        <activity
+            android:name="com.cardiologosguadalajara.wmsi.ui.activity.ReportListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SpinApp.NoActionBar" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

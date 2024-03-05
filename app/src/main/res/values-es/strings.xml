@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WMSI</string>
+
+    <string name="menu_home">WMSI</string>
+    <string name="app_bar_title">Menú</string>
+    <string name="app_bar_menu_info">Info</string>
+    <string name="app_bar_menu_contact">Contáctanos</string>
+    <string name="app_bar_menu_refer_friend">Referir a un amigo</string>
+    <string name="app_bar_menu_feedback">Deja tu opinión</string>
+    <string name="hint_patient_name">Ingrese el nombre del paciente</string>
+    <string name="action_report">Informe</string>
+    <string name="action_clear">Clara</string>
+    <string name="value1">Normal</string>
+    <string name="value2">Hypokinesa</string>
+    <string name="value3">Akinesis</string>
+    <string name="value4">Dyskinesis</string>
+    <string name="value5">Aneurysmal</string>
+    <string name="app_info">Información</string>
+    <string name="WMSI_disclousre">WMSI_disclousre.pdf</string>
+    <string name="drawer_version_title">Versión 1.0</string>
+    <string name="app_report">Informe</string>
+    <string name="upload_signature">Subir firma</string>
+    <string name="upload_header_logo">subir logo</string>
+    <string name="hint_examiner_name">Examinador</string>
+    <string name="hint_phone_name">teléfono</string>
+    <string name="hint_email_name">correo electrónico</string>
+    <string name="hint_address_name">dirección</string>
+    <string name="app_subscription">Suscripción</string>
+    <string name="text_subscrption_details">El pago se cargará a la cuenta de Google Play Store en la confirmación de la compra.
+         La suscripción se renueva automáticamente a menos que la renovación automática se desactive al menos 24 horas antes del final
+         del período actual. La renovación se cobrará a la cuenta dentro de las 24 horas anteriores al final del
+         período actual, e identificar el costo de la renovación. La suscripción puede ser gestionada por el usuario y la renovación automática.
+         se puede desactivar yendo a la configuración de la cuenta del usuario después de la compra. Cualquier porción no utilizada de un
+         el período de prueba, si se ofrece, se perderá cuando el usuario compre una suscripción a la publicación,
+         donde corresponda.</string>
+    <string name="app_terms">Términos y Condiciones</string>
+    <string name="app_policy">Política de privacidad</string>
+    <string name="TERMS_CONDITION">Terms_and_Conditions_Spanish.pdf</string>
+    <string name="PRIVACY_POLICY">WMSI_Privacy_Policy_Spanish.pdf</string>
+    <string name="restore_purchase">Restaurar compra</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="terms_of_use">Condiciones de uso</string>
+    <string name="subscribe_now">Suscríbase ahora</string>
+
+    <string name="titlevalue1">Basal</string>
+    <string name="titlevalue2">Mid</string>
+    <string name="titlevalue3">Apical</string>
+
+    <string name="subvalue1">Anterior</string>
+    <string name="subvalue2">Anterolateral</string>
+    <string name="subvalue3">Anteroseptal</string>
+    <string name="subvalue4">Inferoseptal</string>
+    <string name="subvalue5">Inferolateral</string>
+
+    <!--    // todo report-->
+    <string name="str_wmsi">WMSI : </string>
+    <string name="str_lvef">FEVI : </string>
+
+    <string name="str_name">Nombre :  </string>
+    <string name="str_date">fecha :  </string>
+    <string name="str_examiner">Email :  </string>
+    <string name="str_phone_no">teléfono :  </string>
+    <string name="str_email">correo electrónico :  </string>
+    <string name="str_address">dirección :  </string>
+
+    <!--    // todo subscription-->
+
+    <string name="str_first_3_months">Primeros 3 meses GRATIS</string>
+    <string name="str_yearly_subscription">y luego suscripción anual de $ 0,99
+        \nhasta que el usuario lo cancele.</string>
+
+    <!--    //todo dialog_examiner-->
+    <string name="str_enter_examiner_name">Ingrese el nombre del examinador</string>
+    <string name="str_enter_phone_number">Introduzca el número de teléfono</string>
+    <string name="str_enter_email">Ingrese correo electrónico</string>
+    <string name="str_enter_address">Ingresa la direccion</string>
+    <string name="str_save">Ahorrar</string>
+    <string name="str_cancel">Cancelar</string>
+
+    <!--    // todo dialog_feedback-->
+    <string name="str_enjoying_wmsi">¿Disfrutas de WMSI?</string>
+    <string name="str_tap_star">Toca una estrella para calificarla en Play Store</string>
+    <string name="str_not_now">Ahora no</string>
+
+    <string name="app_final_report">WMSI Informe</string>
+
+    <string name="alerttile">Ray, ¿estás seguro de que quieres salir?</string>
+    <string name="alertYes">SÍ</string>
+    <string name="alertNo">NO</string>
+    <string name="alert">Alert</string>
+    <string name="Wall_Motion_Scale_Index">Wall Motion Scale Index</string>
+    <string name="WMSI_iOS_App_Feedback">WMSI iOS App Feedback</string>
+
+    <!-- //Segment Names -->
+    <string name="basal1">1 basal anterior</string>
+    <string name="basal2">2 basal anteroseptal</string>
+    <string name="basal3">3 basal inferoseptal</string>
+    <string name="basal4">4 basal inferior</string>
+    <string name="basal5">5 basal inferolateral</string>
+    <string name="basal6">6 basal anterolateral</string>
+    <string name="basal7">7 mid anterior</string>
+    <string name="basal8">8 mid anteroseptal</string>
+    <string name="basal9">9 mid inferoseptal</string>
+    <string name="basal10">10 mid inferior</string>
+    <string name="basal11">11 mid inferolateral</string>
+    <string name="basal12">12 mid anterolateral</string>
+    <string name="basal13">13 apical anterior</string>
+    <string name="basal14">14 apical septal</string>
+    <string name="basal15">15 apical inferior</string>
+    <string name="basal16">16 apical lateral</string>
+</resources>

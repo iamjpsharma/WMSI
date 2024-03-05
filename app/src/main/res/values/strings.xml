@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">WMSI</string>
+
+    <string name="menu_home">WMSI</string>
+    <string name="app_bar_title">Menu</string>
+    <string name="app_bar_menu_info">Info</string>
+    <string name="app_bar_menu_contact">Contact Us</string>
+    <string name="app_bar_menu_refer_friend">Refer a Friend</string>
+    <string name="app_bar_menu_feedback">Feedback</string>
+    <string name="hint_patient_name">Enter Patient Name</string>
+    <string name="action_report">Report</string>
+    <string name="action_clear">Clear</string>
+    <string name="value1">Normal</string>
+    <string name="value2">Hypokinesa</string>
+    <string name="value3">Akinesis</string>
+    <string name="value4">Dyskinesis</string>
+    <string name="value5">Aneurysmal</string>
+    <string name="app_info">Info</string>
+    <string name="WMSI_disclousre">WMSI_disclousre.pdf</string>
+    <string name="drawer_version_title">Version 1.0</string>
+    <string name="app_report">Report</string>
+
+    <string name="titlevalue1">Basal</string>
+    <string name="titlevalue2">Mid</string>
+    <string name="titlevalue3">Apical</string>
+
+    <string name="subvalue1">Anterior</string>
+    <string name="subvalue2">Anterolateral</string>
+    <string name="subvalue3">Anteroseptal</string>
+    <string name="subvalue4">Inferoseptal</string>
+    <string name="subvalue5">Inferolateral</string>
+
+    <string name="upload_signature">Upload Signature</string>
+    <string name="upload_header_logo">Upload Header Logo</string>
+    <string name="hint_examiner_name">Examiner Name</string>
+    <string name="hint_phone_name">Phone No</string>
+    <string name="hint_email_name">Email</string>
+    <string name="hint_address_name">Address</string>
+    <string name="app_subscription">Subscription</string>
+    <string name="text_subscrption_details">Payment will be charged to Google play store Account at confirmation of purchase.
+        Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end
+        of the current period. Account will be charged for renewal within 24-hours prior the end of the
+        current period, and identify the costthe renewal. Subscription may be managed by user and auto-renewal
+        may be turned off by going to the user\'s Account Settings after purchase. Any unused portion of a free
+        trial period, if offered, will be forfeited when the user purchases a subscription to the publication,
+        where applicable.</string>
+    <string name="app_terms">Terms And Condition</string>
+    <string name="app_policy">Privacy Policy</string>
+    <string name="TERMS_CONDITION">Terms_and_Conditions_English.pdf</string>
+    <string name="PRIVACY_POLICY">WMSI_Privacy_Policy_English.pdf</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="subscribe_now">Subscribe Now</string>
+
+    <!--    // todo report-->
+    <string name="str_wmsi">WMSI : </string>
+    <string name="str_lvef">LVEF : </string>
+    <string name="str_name">Name :  </string>
+    <string name="str_date">Date :  </string>
+    <string name="str_examiner">Examiner :  </string>
+    <string name="str_phone_no">Phone No :  </string>
+    <string name="str_email">Email :  </string>
+    <string name="str_address">Address :  </string>
+
+    <!--    // todo subscription-->
+
+    <string name="str_first_3_months">First 3 Months FREE</string>
+    <string name="str_yearly_subscription">and then yearly subscription of $0.99
+        \nuntil cancelled by the user.</string>
+
+    <!--    //todo dialog_examiner-->
+    <string name="str_enter_examiner_name">Enter Examiner Name</string>
+    <string name="str_enter_phone_number">Enter Phone Number</string>
+    <string name="str_enter_email">Enter Email</string>
+    <string name="str_enter_address">Enter Address</string>
+    <string name="str_save">Save</string>
+    <string name="str_cancel">Cancel</string>
+
+    <!--    // todo dialog_feedback-->
+    <string name="str_enjoying_wmsi">Enjoying WMSI?</string>
+    <string name="str_tap_star">Tap a star to rate it on the \nPlay Store</string>
+    <string name="str_not_now">Not Now</string>
+    <string name="app_final_report">WMSI Report</string>
+
+    <string name="alerttile">Are you sure you want to exit?</string>
+    <string name="alertYes">YES</string>
+    <string name="alertNo">NO</string>
+    <string name="alert">Alert</string>
+    <string name="Wall_Motion_Scale_Index">Wall Motion Scale Index</string>
+    <string name="WMSI_iOS_App_Feedback">WMSI iOS App Feedback</string>
+
+    <!-- //Segment Names -->
+    <string name="basal1">1 basal anterior</string>
+    <string name="basal2">2 basal anteroseptal</string>
+    <string name="basal3">3 basal inferoseptal</string>
+    <string name="basal4">4 basal inferior</string>
+    <string name="basal5">5 basal inferolateral</string>
+    <string name="basal6">6 basal anterolateral</string>
+    <string name="basal7">7 mid anterior</string>
+    <string name="basal8">8 mid anteroseptal</string>
+    <string name="basal9">9 mid inferoseptal</string>
+    <string name="basal10">10 mid inferior</string>
+    <string name="basal11">11 mid inferolateral</string>
+    <string name="basal12">12 mid anterolateral</string>
+    <string name="basal13">13 apical anterior</string>
+    <string name="basal14">14 apical septal</string>
+    <string name="basal15">15 apical inferior</string>
+    <string name="basal16">16 apical lateral</string>
+</resources>

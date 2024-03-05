@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="barMenuItemText">
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>-->
+        <item name="android:fontFamily">@font/circularctd_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ReportText">
+<!--        android:letterSpacing="0.01"-->
+<!--        android:lineSpacingExtra="1.2dp"-->
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">1.2dp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>-->
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ExaminerDialogText">
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>-->
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="barMenuItemIcon">
+
+        <item name="tint">@color/app_color</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+
+    </style>
+
+    <style name="DialogEditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">20sp</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>-->
+    </style>
+</resources>
